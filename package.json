@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon playground/promise.js --exec babel-node --presets es2015,stage-2"
+    "start": "nodemon playground/promise.js --exec babel-node --presets es2015,stage-2",
+    "build": "babel playground -d dist --presets es2015,stage-2",
+    "serve": "node dist/promise.js"
   },
   "author": "",
   "license": "ISC",
