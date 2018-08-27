@@ -15,6 +15,12 @@
          "request": "launch",
          "name": "Test LowDB",
          "program": "${workspaceFolder}/playground/lowdb.js"
+      },
+      {
+         "type": "node",
+         "request": "launch",
+         "name": "Test Promise",
+         "program": "${workspaceFolder}/playground/promise.js"
       }
    ]
 }
