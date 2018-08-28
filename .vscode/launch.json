@@ -21,6 +21,18 @@
          "request": "launch",
          "name": "Test Promise",
          "program": "${workspaceFolder}/playground/promise.js"
+      },
+      {
+         "type": "node",
+         "request": "launch",
+         "name": "Test Props",
+         "program": "${workspaceFolder}/playground/props.js"
+      },
+      {
+         "type": "node",
+         "request": "launch",
+         "name": "Test Object",
+         "program": "${workspaceFolder}/playground/object.js"
       }
    ]
 }
