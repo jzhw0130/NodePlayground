@@ -33,6 +33,12 @@
          "request": "launch",
          "name": "Test Object",
          "program": "${workspaceFolder}/playground/object.js"
+      },
+      {
+         "type": "node",
+         "request": "launch",
+         "name": "Test Mixin",
+         "program": "${workspaceFolder}/playground/mixin.js"
       }
    ]
 }

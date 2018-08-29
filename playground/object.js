@@ -27,6 +27,7 @@ console.log('new user', newUser);
 
 /************ Object.create **********/
 const anotherUser = Object.create(newUser);
+newUser.printDescription();
 anotherUser.id = 3;
 console.log('another user', anotherUser.id, anotherUser.married);
 
