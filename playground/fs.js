@@ -34,12 +34,10 @@ function write(data, append, path) {
       });
 }
 
-const convertData = filter => {
-   const convertDataPath = path.join(workpath, convertFileName);
+const convertData = (sourceDataPath, convertDataPath, filter) => {
    if (fs.existsSync(convertDataPath)) fs.unlinkSync(convertDataPath);
    const writeStream = fs.createWriteStream(convertDataPath);
 
-   const sourceDataPath = path.join(workpath, sourceFileName);
    if (!fs.existsSync(sourceDataPath)) return;
    const readStream = fs.createReadStream(sourceDataPath);
 
@@ -62,5 +60,7 @@ const writeChunk = (writeStream, data, filter) => {
    }
 };
 
+const sourceDataPath = path.join(workpath, sourceFileName);
+const convertDataPath = path.join(workpath, convertFileName);
 const filter = Array.from(Array(10000).keys()).map(key => key + 1 + 22767);
-convertData([32767]);
+convertData(sourceDataPath, convertDataPath, [32767]);
