@@ -45,6 +45,12 @@
          "request": "launch",
          "name": "Test Due",
          "program": "${workspaceFolder}/playground/due.js"
+      },
+      {
+         "type": "node",
+         "request": "launch",
+         "name": "Test fs",
+         "program": "${workspaceFolder}/playground/fs.js"
       }
    ]
 }
