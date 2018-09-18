@@ -21,7 +21,9 @@
       "lodash": "^4.17.10",
       "lowdb": "^1.0.0",
       "nodemon": "^1.18.3",
-      "read-chunk": "^3.0.0"
+      "read-chunk": "^3.0.0",
+      "xml-parser": "^1.2.1",
+      "xmlbuilder": "^10.0.0"
    },
    "engines": {
       "node": "^8.0.0"

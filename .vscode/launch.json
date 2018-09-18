@@ -51,6 +51,12 @@
          "request": "launch",
          "name": "Test fs",
          "program": "${workspaceFolder}/playground/fs.js"
+      },
+      {
+         "type": "node",
+         "request": "launch",
+         "name": "Test xml",
+         "program": "${workspaceFolder}/playground/xml.js"
       }
    ]
 }
