@@ -57,6 +57,12 @@
          "request": "launch",
          "name": "Test xml",
          "program": "${workspaceFolder}/playground/xml.js"
+      },
+      {
+         "type": "node",
+         "request": "launch",
+         "name": "Test MD5",
+         "program": "${workspaceFolder}/playground/md5.js"
       }
    ]
 }
